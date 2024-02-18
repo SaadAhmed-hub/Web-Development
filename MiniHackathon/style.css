@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* top bar */
+.bg-colour{
+background-color: #c30047 !important;
+}
+/* fixed navbar */
+.txt{
+    background-color: white;
+    color: white !important;
+}
+
+/* pink ribbon */
+.bg-pink{
+    background-image: url(./images/section-bg1.jpg);
+}
+
+/* chacha */
+.help-image{
+    background-image: url(./images/chacha.webp);
+    width: 100%;
+    height: 600px;
+}
+
+.f00ter-colour{
+    background-color: #301a22;
+}
+

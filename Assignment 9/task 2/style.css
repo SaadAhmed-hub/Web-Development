@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.slideshow-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    background-color: rgb(117, 87, 145);
+}
+.slider{
+    margin: 1%;
+    width: 100%;
+}
+
+
+.cards-container{
+    display: flex;
+    background-color: rgba(174, 164, 164, 0.645);
+    /* background-size: cover; */
+
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    min-width: 10%;
+    max-width: 60%;
+
+    min-height: auto;
+    max-height: auto;
+    
+    margin: 10px;
+
+    transition: transform 10 ease;
+}
+
+
+.card:hover{
+    box-shadow: 1px 10px 10px rgba(17, 16, 16, 0.645)
+}
+.card:hover {
+    transform: scale(1.01);
+}
+.card-content{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.image{
+    min-width: 100%;
+    max-width: 100%;
+
+    min-height: 50%;
+    max-height: 80%;
+}
+
+
+.learnmore{
+    display: flex;
+    background-color: rgba(221, 217, 217, 0.645);
+    background: none;
+}
+
+.button:hover{
+    transform: scale(0.9);
+}
+
+.learnmore-image{
+    width: 100%;
+    height: 50px;
+    
+    margin-top: 10%;
+    margin-left:40%;
+
+}
+
+
+.heading{
+    text-align: center;
+
+    margin: 2%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    text-transform:uppercase;
+}

@@ -1,0 +1,114 @@
+#top{
+    display: flex;
+}
+#name{
+    color: black;
+    width: 35%;
+    padding-left: 5%;
+}
+
+.name {
+    text-align: right;
+    width: 20%;
+    padding-right: 1%;
+    padding-top: 2%;
+}
+
+
+.profile-container{
+    display: flex;
+}
+#Profileheading {
+    width: 10%;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+}
+.subheading-Profile {
+    width: 40%;
+}
+
+
+
+.skill-container{
+    display: flex;
+}
+#Skillsheading {
+    width: 10%;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+}
+.subheading-Skills{
+    column-gap: 5%;
+    display: flex;
+    width: 40%;
+}
+.Skill{
+
+}
+
+
+
+.technical-container{
+    display: flex;
+}
+#Technicalheading {
+    width: 10%;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+}
+
+.col1{
+    width: 12%
+}
+.col2{
+    width: 13%
+}
+.col3{
+    width: 12%
+}
+
+
+
+.Experience-Container{
+    display: flex;
+    text-align: left;
+    margin-right: 1%;
+    margin-left: 8%;
+
+}
+
+#Experienceheading {
+    display:flex;
+}
+.subheading-Experience{
+    display: flex;
+    flex-direction: column;
+}
+.Experience{
+    width: 45%;
+    margin-left: 7%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr{
+    width: 60%;
+    margin-left: 5%;
+
+}  

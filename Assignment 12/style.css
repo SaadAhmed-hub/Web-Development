@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    /* x-axis = justify */
+    justify-content: space-between;
+    /* y axis = align items */
+    align-items: center; 
+
+    background-color: black;
+    padding: 5px 120px;
+
+}
+
+.navbar .logo img{
+    width: 180px;
+    height: 70px;
+}
+
+.navbar .mainMenu {
+    display: flex;
+}
+.mainMenu li{
+    list-style:  none;
+    margin: 0px 25px;
+}
+.mainMenu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar .btn{
+    display: flex;
+    gap:20px;
+
+}
+.btn .franchise button{
+    padding: 8px 10px;
+    border-radius: 20px;
+    /* border: 2px solid whitesmoke; */
+    /* background-color:black; */
+    background: transparent;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.btn .signup button{
+    padding: 8px 10px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.franchise .button:hover{
+    background-color: rgb(255, 249, 249) ;
+    color: rgb(251, 242, 242);
+}
+
+/* CSS for Master section */

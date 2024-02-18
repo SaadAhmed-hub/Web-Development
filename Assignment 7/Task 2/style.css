@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+
+.title{
+    text-align: justify;
+    color: rgb(96, 104, 108);
+    background-color: greenyellow;
+}
+.PriceColumn{
+    background-color: rgba(209, 199, 199, 0.433);
+}
+
+.div1{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.table{
+    border-collapse: collapse;
+    border-block: black solid;
+}
